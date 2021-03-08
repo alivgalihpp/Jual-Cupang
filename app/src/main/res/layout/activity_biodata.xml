@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202B30"
+    android:backgroundTint="#202B30"
+    android:backgroundTintMode="src_in"
+    android:foregroundTint="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="322dp"
+        android:layout_height="525dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SELAMAT DATANG"
+            android:textAlignment="center"
+            android:textColor="#A2B9C3"
+            android:textSize="34dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THE BEST BETTAFISH"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Nama :"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/xnama"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Alamat :"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/xalamat"
+            android:layout_width="333dp"
+            android:layout_height="64dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="No. HP :"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/xno"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/tmblMasuk"
+            android:layout_width="189dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bgbuttonred"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center_horizontal"
+            android:text="MASUK"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
